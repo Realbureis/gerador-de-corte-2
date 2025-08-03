@@ -1,0 +1,28 @@
+{
+  "tamanho_base": "M",
+  "pecas": {
+    "Barra": {
+      "altura_base": 12.5,
+      "comprimento_base": 86,
+      "quantidade_por_peca": 2,
+      "regra_risco": "dividir_comprimento_por_2"
+    },
+    "Punho": {
+      "altura_base": 12.5,
+      "comprimento_base": 23,
+      "quantidade_por_peca": 2,
+      "regra_risco": "usar_comprimento_final"
+    },
+    "Gola": {
+      "altura_base": 8,
+      "comprimento_base": 40,
+      "quantidade_por_peca": 1,
+      "regra_risco": "usar_comprimento_final"
+    }
+  },
+  "tabela_gradacao": {
+    "Barra": { "P": -3, "M": 0, "G": 3, "GG": 6, "EG": 9 },
+    "Punho": { "P": -0.5, "M": 0, "G": 1, "GG": 1.5, "EG": 2 },
+    "Gola": { "P": 0, "M": 0, "G": 0, "GG": 0, "EG": 0 }
+  }
+}
